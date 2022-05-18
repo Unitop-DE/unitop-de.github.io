@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+
+ <defs>
+  <linearGradient id="grad"  x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop id="g3" offset="0%" stop-color="#54cac3" stop-opacity="1"/>
+    <stop id="g4" offset="100%" stop-color="#220077" stop-opacity="1"/>
+  </linearGradient>
+
+    <linearGradient id="grad2"  x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop id="g3" offset="75%" stop-color="#333333" stop-opacity="1"/>
+    <stop id="g4" offset="25%" stop-color="#00ffff" stop-opacity="1"/>
+  </linearGradient>
+ </defs>
+
+	<path d="M121 70 L0 140 L-121 70 L-121 -70 L-0 -140 L121 -70 z" style="fill:url(#grad);
+  stroke-linejoin: round;"></path>
+  <text x="-105" y="25" font-family="Verdana" font-size="60" style="fill:url(#grad2);">Unitop</text>
+</svg>
