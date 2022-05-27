@@ -118,3 +118,38 @@ body{
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+
+
+
+#join_first{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .center_content{
+        position: absolute;
+        top:25%;
+        text-align: center;
+    }
+
+    #header{
+        padding-left:0;
+    }
+    #header > #menu{
+        padding-left:0;
+    }
+
+    #join_first{
+        top:50%;
+    }
+    
+}
